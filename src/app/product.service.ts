@@ -7,6 +7,10 @@ private _albumUrl = '../assets/album.json';
 
 
   constructor(private _http: Http) {}
+
+  getAlbum(id: number) {
+
+  }
   
 
 }
