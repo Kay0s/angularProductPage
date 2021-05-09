@@ -20,6 +20,7 @@ private _productsUrl = '../assets/products.json';
   
   }
   getProducts(){
+    return this._http.get(this._productsUrl);
 
   }
 }
